@@ -4,7 +4,9 @@ Este programa está diseñado para administrar la fabricación de paletas del ne
 El programa permite añadir ingredientes y guardarlos en una lista. También permite fabricar paletas tomando los ingredientes de la lista y almacenarlas en la hielera, y registrar paletas vendidas.
 ## Consideraciones
 Este es un programa realizado en c++ mediante Visual Studio code.
+
 Este programa esta limitado al recuento de paletas y su creación. No podra obtener valores de costos y ganancias.
+
 Para el correcto funcionamiento del programa, las entradas deben coincidir con el tipo de dato de la variable, de lo contrario el programa no funcionará.
 
 ## Actualizaciones
