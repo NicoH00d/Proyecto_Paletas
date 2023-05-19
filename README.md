@@ -9,4 +9,4 @@ Para el correcto funcionamiento del programa, las entradas deben coincidir con e
 
 ## Actualizaciones
 ### 19/05/2023
- - Creación de diagrama UML: El diagrama de clases se compone de 5 clases en este caso, la clase Paleta, Ingredientes, Hielera, Paleta_agua y Paleta_leche. La clase paleta y Hielera son una relación de agregación ya que la hielera puede tener o no paletas. Por el otro lado, la clase Paleta se compone de Ingredientes ya que son necesarios para su creación. Por último tenemos dos subclases de Paleta ya que contamos con 2 tipos de paletas, de leche y de agua.
+ - Creación de diagrama UML: El diagrama de clases se compone de 5 clases en este caso, la clase Paleta, Ingredientes, Hielera, Paleta_agua y Paleta_leche. La clase paleta y Hielera son una relación de agregación ya que la hielera puede tener o no paletas. Por el otro lado, la clase Paleta se compone de Ingredientes ya que son necesarios para su creación. Por último tenemos dos subclases de Paleta ya que contamos con 2 tipos de paletas, de leche y de agua, heredan atributos de paleta.
