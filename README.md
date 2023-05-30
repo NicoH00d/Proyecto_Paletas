@@ -16,3 +16,5 @@ Para el correcto funcionamiento del programa, las entradas deben coincidir con e
 - Creación de clases: Se crean las 5 clases presentes en el diagrama de clase priorizando la implementación de herencia, sobre carga y sobreescritura en las clases correspondientes. 
 - El main unicamente implementa las funciones de las clases para comprobar su funcionamiento.
 - Pendiente método removerPaletas y mostrarPaletas en la clase Hielera.
+### 30/05/2023
+- Correccion de diagrama UML
