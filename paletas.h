@@ -40,7 +40,8 @@ class Paletas{
         //metodos
         void agregarIngrediente(string ingrediente);
         void removerIngrediente(string ingrediente);
-        void fabricarPaleta();
+        virtual void fabricarPaleta(); //virutal para claces
+
 
 };
 

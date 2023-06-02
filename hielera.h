@@ -7,22 +7,23 @@ using namespace std;
 
 class Hielera{
     private:
-        vector<Paletas> paletas;
-
+        vector<Paletas*> paletash;
     public:
         Hielera(){}
+        void agregar(Paletas* pa){
+            paletash.push_back(pa);
+        }
 
-        void agregarPaleta(Paletas paleta);
-        void removerPaleta(Paletas paleta);
-        void mostrarPaletas();
+        void mostrarPaletas(){
+            cout<<" "<<endl;
+            cout<<"-----HIELERA-----"<<endl;
+            for (int i=0; i < paletash.size(); i++){
+                paletash[i]->fabricarPaleta();
+                cout<<"- - - - - - - - - -"<<endl;
+            }
         
-
-
-
+        void removerPaleta(Paletas paleta);
+        }
 };
-void Hielera::agregarPaleta(Paletas paleta){
-        paletas.push_back(paleta);
-}
 //metodo remover paleta pendiente
-//metodo mostrarpaletas pendiente
 #endif
