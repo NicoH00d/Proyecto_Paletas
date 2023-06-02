@@ -18,3 +18,7 @@ Para el correcto funcionamiento del programa, las entradas deben coincidir con e
 - Pendiente método removerPaletas y mostrarPaletas en la clase Hielera.
 ### 30/05/2023
 - Correccion de diagrama UML
+### 2/06/2023
+- Se implementa el polimorfismo en la clase Paleta y Paleta_a y Paleta_l.
+- Se implementa la fucnion "agregar" en la clase de Hielera para agregar paletasa desde el main.
+- Ahora el main demuestra el funcionamiento de hielera para almacenar paletas creadas en el heap.
