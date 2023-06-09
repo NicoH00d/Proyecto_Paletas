@@ -22,3 +22,5 @@ Para el correcto funcionamiento del programa, las entradas deben coincidir con e
 - Se implementa el polimorfismo en la clase Paleta y Paleta_a y Paleta_l.
 - Se implementa el método "agregar" en la clase de Hielera para agregar paletas desde el main.
 - Ahora el main demuestra el funcionamiento de hielera para almacenar paletas creadas en el heap para poder implementar polimorfimso.
+### 9/6/2023
+- Se convierte la clase de Paletas a clase abstracta para evitar la creacion de objetos paleta.
