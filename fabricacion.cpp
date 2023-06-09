@@ -5,13 +5,14 @@
 
 int main(){
 //-----------------------Pruebas---------------------------//
-    Paletas fresa;
-    fresa.setSabor("fresa");
-    fresa.setColor("Rojo");
-    fresa.agregarIngrediente("fresas");
-    fresa.fabricarPaleta();
-    fresa.removerIngrediente("azucar");
-    fresa.fabricarPaleta();
+//al implementar la clase ABSTRACTA, no sera posible crear un objeto de la clase Padre 
+//    Paletas fresa;
+//    fresa.setSabor("fresa");
+//    fresa.setColor("Rojo");
+//    fresa.agregarIngrediente("fresas");
+//    fresa.fabricarPaleta();
+//    fresa.removerIngrediente("azucar");
+//    fresa.fabricarPaleta();
 cout<<"---------------------------------------------"<<endl;
     Paleta_agua mango;
     mango.setSabor("Mango");
