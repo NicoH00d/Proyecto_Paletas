@@ -1,14 +1,17 @@
 # Proyecto_Paletas
-Este programa está diseñado para administrar la fabricación de paletas del negocio de unos Alumnos emprendedores. Este programa permitirá administrar los ingredientes para la fabricación de las paletas, fabricar la paleta, y la cantidad de paletas creadas y vendidas. Para esto, se genera una estructura de clases con Paletas, Tipos de Paletas, Ingredientes y Hielera.
+Este programa está diseñado para administrar la fabricación de paletas del negocio de unos Alumnos emprendedores. Este programa permitirá administrar los ingredientes para la fabricación de las paletas, fabricar la paleta, y mostrar la cantidad de paletas disponibles. Para esto, se genera una estructura de clases con Paletas, Tipos de Paletas y Hielera.
 ## Funcionalidad
-El programa permite añadir ingredientes y guardarlos en una lista. También permite fabricar paletas tomando los ingredientes de la lista y almacenarlas en la hielera, y registrar paletas vendidas.
+El main (fabricacion.cpp) mostrara un ejemplo de los objetos tipo paleta de agua y paleta de leche ya fabricados con el objetivo de comprender el funcionamiento. También mostrara que cuentas con una hielera la cual podrás acceder a su contenido para visualizar las paletas disponibles. Más adelante, el main proporcionara al usuario una entrada para fabricar su propia paleta como ejemplo. Este programa esta adaptado a los requisitos de la clase de Programación orientada a objetos.
 ## Consideraciones
-Este es un programa realizado en c++ mediante Visual Studio code.
-Este programa esta adaptado a los requisitos de la clase de Programación orientada a objetos.
+
+Este es un programa realizado en c++ mediante Visual Studio Code.
+
 Este programa esta limitado al recuento de paletas y su creación. No podrá obtener valores de costos y ganancias.
 
 Para el correcto funcionamiento del programa, las entradas deben coincidir con lo solicitado, de lo contrario el programa no funcionará.
+
 Para el correcto funcionamiento, ingresar únicamente una palabra en el caso de las entradas de texto.
+
 Compilar g++ fabricacion.cpp
 
 ## Actualizaciones
@@ -28,9 +31,9 @@ Compilar g++ fabricacion.cpp
 - Se convierte la clase de Paletas a clase abstracta para evitar la creación de objetos paleta.
 - Se comenta la creación de objetos Paleta en el main.
 ### 15/6/2023
-- No se encontro ningun error para corregir al compilar la entrega de implementacion de clase abstracta, verificado en asesoria.
+- No se encontró ningún error para corregir al compilar la entrega de implementacion de clase abstracta, verificado en asesoría.
 - Se comenta el código para explicar funcionamiento.
 - Se borra la clase de ingredientes debido a su funcionamiento innecesario.
 - Se actualiza el diagrama UML: El diagrama de clases se compone de 4 clases, la clase Paleta, Hielera, Paleta_agua y Paleta_leche. La clase paleta y Hielera son una relación de agregación ya que la hielera puede tener o no paletas. Por el otro lado, se conservan las dos subclases de Paleta ya que contamos con 2 tipos de paletas, de leche y de agua, heredan atributos de paleta.
-- Se implementa la interacción con el usuario en el main (fabricacion).
+- Se implementa la interacción con el usuario en el main (fabricacion.cpp).
 - Se actualizan los archivos finales.
