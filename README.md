@@ -28,7 +28,7 @@ Compilar g++ fabricacion.cpp
 - Se convierte la clase de Paletas a clase abstracta para evitar la creación de objetos paleta.
 - Se comenta la creación de objetos Paleta en el main.
 ### 15/6/2023
-- No se encontro ningun error al compilar la entrega de implementacion de clase abstracta, verificado en asesoria.
+- No se encontro ningun error para corregir al compilar la entrega de implementacion de clase abstracta, verificado en asesoria.
 - Se comenta el código para explicar funcionamiento.
 - Se borra la clase de ingredientes debido a su funcionamiento innecesario.
 - Se actualiza el diagrama UML: El diagrama de clases se compone de 4 clases, la clase Paleta, Hielera, Paleta_agua y Paleta_leche. La clase paleta y Hielera son una relación de agregación ya que la hielera puede tener o no paletas. Por el otro lado, se conservan las dos subclases de Paleta ya que contamos con 2 tipos de paletas, de leche y de agua, heredan atributos de paleta.
