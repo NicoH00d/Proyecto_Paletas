@@ -19,7 +19,7 @@ Compilar g++ fabricacion.cpp
 - El main únicamente implementa las funciones de las clases para comprobar su funcionamiento.
 - Pendiente método mostrarPaletas en la clase Hielera.
 ### 30/05/2023
-- Corrección de diagrama UML
+- Corrección de diagrama UML: se corrige la dirección de los enlaces
 ### 2/06/2023
 - Se implementa el polimorfismo en la clase Paleta y Paleta_a y Paleta_l.
 - Se implementa el método "agregar" en la clase de Hielera para agregar paletas desde el main.
